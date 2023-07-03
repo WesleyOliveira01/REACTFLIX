@@ -5,7 +5,7 @@ export const urlImg = import.meta.env.VITE_IMG;
 
 const Card = ({ filme, showLink = true }) => {
   return (
-    <section className="bg-slate-900 p-3 rounded-md shadow-xl text-slate-300 flex flex-col w-1/4 h-auto gap-3 justify-between">
+    <section className="bg-slate-900 p-3 rounded-md shadow-xl text-slate-300 flex flex-col w-[30%] h-auto gap-3 justify-between">
       <div>
         <div className="w-full h-3/4 p-1">
           <img
